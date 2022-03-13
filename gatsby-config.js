@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `El blog de cardugarte`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `cardugarte`,
+      summary: `Vivo en Buenos Aires. Me encanta compartir conocimiento, opiniones e ideas. Software Developer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Espacio dedicado a compartir información con personas curiosas.`,
+    siteUrl: `https://blog.carlosdugarte.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `cardugarte`,
     },
   },
   plugins: [
@@ -105,7 +105,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "El blog de cardugarte RSS Feed",
           },
         ],
       },
@@ -113,13 +113,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `el Blog de cardugarte`,
+        short_name: `cardugarte`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: `transparent`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
