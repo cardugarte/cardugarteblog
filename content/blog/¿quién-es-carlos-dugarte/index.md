@@ -1,8 +1,6 @@
 ---
 title: ¿Quién es Carlos Dugarte?
 date: 2022-03-15T23:52:07.667Z
-description: Software Developer, apasionado por la tecnología, la Libertad y las
-  herramientas digitales para transformar el mundo, romper el status quo y
-  solucionar los problemas que enfrentamos
+description: Blog en desarrollo, pronto publicaré el primer artículo.
 ---
-Esto es un ejemplo para el blog
+Gracias por visitar mi nuevo espacio, la idea de este nuevo proyecto en mi vida personal y profesional es compartir con el mundo mis conocimientos técnicos y filosóficos que nos permitan desarrollar un mejor estilo y calidad de vida.
