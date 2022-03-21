@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `El blog de cardugarte`,
     author: {
-      name: `cardugarte`,
-      summary: `Vivo en Buenos Aires. Me encanta compartir conocimiento, opiniones e ideas. Software Developer.`,
+      name: `Carlos Dugarte,`,
+      summary: `vivo en Buenos Aires y me encanta compartir conocimiento, opiniones e ideas. Me dedico al diseño y desarrollo interfaces de usuarios para aplicaciones web.`,
     },
     description: `Espacio dedicado a compartir información con personas curiosas.`,
     siteUrl: `https://blog.carlosdugarte.com/`,

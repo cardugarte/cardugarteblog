@@ -43,11 +43,15 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Escrito por: <strong>{author.name}</strong> {author?.summary || null}
+        <p 
+          className="font-sans text-slate-200 tracking-wide"
+        >
+          Hola 👋 soy <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Sígueme en Twitter
+          <a
+            className="text-sky-600 font-bold tracking-wide"
+            href={`https://twitter.com/${social?.twitter || ``}`}>
+            @cardugarte en Twitter.
           </a>
         </p>
       )}
