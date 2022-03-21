@@ -89,6 +89,11 @@ footer {
   padding: var(--spacing-6) var(--spacing-0);
 }
 
+.link__footer {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
 hr {
   background: var(--color-accent);
   height: 1px;

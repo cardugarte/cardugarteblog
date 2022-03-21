@@ -8,7 +8,7 @@ const Layout = ({ location, title, children }) => {
 
   if (isRootPath) {
     header = (
-      <h1 className="main-heading text-center text-bold">
+      <h1 className="main-heading text-center text-5xl font-bold font-mono">
         <Link to="/">{title}</Link>
       </h1>
     )
@@ -24,10 +24,10 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}. El blog de cardugarte. Todos los derechos reservados.
+      <footer className="font-sans text-gray-500">
+        © {new Date().getFullYear()}. El blog de cardugarte, hecho con 💖 a fin de compartir ideas, conocimientos y experiencias.
         {` `}
-        <a href="https://www.carlosdugarte.com">Visita mi sitio web</a>
+        <a className="link__footer" href="https://www.carlosdugarte.com">Visita mi web.</a>
       </footer>
     </div>
   )

@@ -47,7 +47,7 @@ const BlogIndex = ({ data, location }) => {
                     </Link>
                   </h2>
                   <small
-                    className="antialiased font-sans"
+                    className="antialiased font-sans text-gray-500"
                   >{post.frontmatter.date}</small>
                 </header>
                 <section>
@@ -84,7 +84,7 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "DD/MM/YYYY")
           title
           description
         }
